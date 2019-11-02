@@ -3,11 +3,31 @@ var app = new Vue({
   data: {
     cities: [],
     prefix: '',
+    owlform: '',
+    defenition: [],
   },
   methods: {
+    owlREST() {
+      this.defenition = [];
+      console.log("In Owl " + this.owlform);
+      var url = "owl?q=" + this.owlform;
+      console.log("URL " + url);
+      fetch(url)
+        .then((data) => {
+          return (data.json());
+        })
+        .then((def) => {
+          console.log("Owl");
+          console.log(def);
+          for (let i = 0; i < def.length; i++) {
+            this.defenition.push(def[i]);
+          }
+        });
+    },
+    
     fetchREST() {
       console.log("In Fetch " + this.prefix);
-      var url = "http://bioresearch.byu.edu/cs260/jquery/getcity.cgi?q=" + this.prefix;
+      var url = "/cities?q=" + this.prefix;
       console.log("URL " + url);
       fetch(url)
         .then((data) => {
