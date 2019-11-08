@@ -26,19 +26,19 @@ var app = new Vue({
     },
     
     fetchREST() {
-      //console.log("In Fetch " + this.prefix);
+      console.log("In Fetch " + this.prefix);
       var url = "/cities?q=" + this.prefix;
-      //console.log("URL " + url);
+      console.log("URL " + url);
       fetch(url)
         .then((data) => {
           return (data.json());
         })
         .then((citylist) => {
-          //console.log("CityList");
-          //console.log(citylist);
+          console.log("CityList");
+          console.log(citylist);
           this.cities = [];
           for (let i = 0; i < citylist.length; i++) {
-            //console.log(citylist[i].city);
+            console.log(citylist[i].city);
             this.cities.push({ name: citylist[i].city });
           };
           console.log("Got Citylist");
