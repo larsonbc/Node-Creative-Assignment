@@ -1,0 +1,30 @@
+Atlanta Hawks: Lloyd Pierce         Start Date: May 11, 2018
+Boston Celtics: Brad Stevens        Start Date: July 3, 2013
+Brooklyn Nets: Kenny Atkinson       Start Date: April 17, 2016	
+Charlotte Hornets: James Borrego    Start Date: May 10, 2018	
+Chicago Bulls: Jim Boylen           Start Date: December 3, 2018	
+Cleveland Cavaliers: John Beilein   Start Date: May 13, 2019	
+Dallas Mavericks: Rick Carlisle     Start Date: May 9, 2008	
+Denver Nuggets: Michael Malone      Start Date: June 15, 2015	
+Detroit Pistons: Dwane Casey        Start Date: June 11, 2018	
+Golden State Warriors: Steve Kerr   Start Date: May 19, 2014	
+Houston Rockets:Mike D'Antoni       Start Date: June 1, 2016	
+Indiana Pacers: Nate McMillan       Start Date: May 16, 2016	
+Los Angeles Clippers: Doc Rivers    Start Date: June 25, 2013	
+Los Angeles Lakers: Frank Vogel     Start Date: May 11, 2019	
+Memphis Grizzlies: Taylor Jenkins   Start Date: June 11, 2019	
+Miami Heat: Erik Spoelstra          Start Date: April 28, 2008	
+Milwaukee Bucks: Mike Budenholzer   Start Date: May 18, 2018	
+Minnesota Timberwolves: Ryan Saunders   Start Date: January 6, 2019	
+New Orleans Pelicans: Alvin Gentry  Start Date: May 30, 2015	
+New York Knicks: David Fizdale      Start Date: May 7, 2018
+Oklahoma City Thunder: Billy Donovan    Start Date:	April 30, 2015
+Orlando Magic: Steve Clifford       Start Date: May 30, 2018
+Philadelphia 76ers: Brett Brown 	Start Date: August 14, 2013
+Phoenix Suns: Monty Williams        Start Date: May 3, 2019
+Portland Trail Blazers: Terry Stotts    Start Date: August 7, 2012
+Sacramento Kings: Luke Walton       Start Date: April 14, 2019
+San Antonio Spurs: Gregg Popovich   Start Date: December 10, 1996
+Toronto Raptors: Nick Nurse         Start Date: June 14, 2018
+Utah Jazz: Quin Snyder              Start Date: June 6, 2014
+Washington Wizards: Scott Brooks    Start Date: April 26, 2016

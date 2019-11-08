@@ -7,13 +7,28 @@
 </head>
 
 <style>
+  body {
+    background-image: url("https://wallpapercave.com/wp/UiA1t25.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1300px 750px;
+    text-align: center;
+  }
 
-body {
-        background-image: url("https://image.freepik.com/free-vector/silhouette-skyline-illustration_53876-78786.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 1300px 850px;
-    }
+  header {
+    color: white;
+    text-align: center;
+  }
+
+  div {
+    color: white;
+    text-align: center;
+  }
+
+  p {
+    color: white;
+    text-align: center;
+  }
 
   footer {
     /*padding: 10px 20px;*/
@@ -26,32 +41,55 @@ body {
 </style>
 
 <body>
+
+  <header>
+    <h1>Welcome to the NBA Info Page!</h1>
+    <h3>Use this page to find information about your favorite NBA team</h3>
+  </header>
+
+  <hr>
+
   <div id="app">
+
+    <h1>Type the name of a city with an NBA team to get the name of its mascot</h1>
+    <form v-on:keyup.prevent="mascotREST">
+      <input type="text" v-model="prefix2">
+    </form>
+    <div v-for="item in mascots">
+      <h3>{{ item.name }}</h3>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Type the name of an NBA city to get the team head coach and the date they started coaching there</h1>
+    <form v-on:keyup.prevent="coachREST">
+      <input type="text" v-model="prefix3">
+    </form>
+    <div v-for="item in coaches">
+      <h3>{{ item.name }}</h3>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
     <h1>Type the last name of an NBA player</h1>
     <form v-on:keyup.prevent="fetchREST">
       <input type="text" v-model="prefix">
     </form>
-    <ul>
-      <li v-for="item in cities">
-        {{ item.name }}
-      </li>
-    </ul>
-    
+    <div v-for="item in players">
+      <h3>{{ item.name }}</h3>
+    </div>
+
     <br>
     <br>
     <br>
     <br>
-    
-    <h1>Type a Word to Define</h1>
-    <form v-on:submit.prevent="owlREST">
-      <input type="text" v-model="owlform">
-      <input type="submit" value="Submit">
-    </form>
-    <ul>
-      <li v-for="item in defenition">
-        {{ item.defenition }}
-      </li>
-    </ul>
+
   </div>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
   <script src="javascripts/script.js"></script>
